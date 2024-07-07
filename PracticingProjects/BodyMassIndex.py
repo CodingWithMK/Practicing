@@ -1,10 +1,10 @@
 #BODY MASS INDEX CALCULATOR
 
-user_name = input("Adinizi giriniz: ")
-user_surname = input("Soyadinizi giriniz: ")
-user_age = str(input("Yaşinizi giriniz: "))
-user_height = float(input("Boyunuzu giriniz: "))
-user_weight = float(input("Ağirliğinizi giriniz: "))
+user_name = input("Enter your name: ")
+user_surname = input("Enter your surname: ")
+user_age = str(input("Enter your age: "))
+user_height = float(input("Enter your body height: "))
+user_weight = float(input("Enter your body weight: "))
 
 BMI = (user_weight/user_height**2)
 
